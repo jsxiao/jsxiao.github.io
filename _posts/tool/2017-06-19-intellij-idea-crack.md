@@ -12,8 +12,7 @@ keywords: Java
 
 ```
 -javaagent:/你的IntelliJ Idea安装目录/bin/JetbrainsCrack-2.6.2.jar
-
-windows下还需要编辑 idea64.vmoptions
 ```
 
+windows下还需要编辑 idea64.vmoptions
 ##### 全部完成后启动Idea，选择第二项随意输入几个字符即可。
