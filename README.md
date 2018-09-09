@@ -18,5 +18,4 @@
 - 单栏布局（first-ui分支，基于Bootstrap）
 
 
-### 最后感谢 [Suyan](http://yansu.org){:target="_blank"}
-### <a href="http://yansu.org" target="_blank">最后感谢 Suyan</a>
+### 最后感谢 [Suyan](http://yansu.org)
