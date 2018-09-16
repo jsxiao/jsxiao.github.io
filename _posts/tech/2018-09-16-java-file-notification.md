@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Java文件变更通知
+title: JDK1.7文件更改事件通知
 category: 技术
 tags: Nginx
-description: JDK1.7 文件变更通知
+description: JDK1.7文件更改事件通知
 ---
 
 ### JDK1.7文件更改事件通知
