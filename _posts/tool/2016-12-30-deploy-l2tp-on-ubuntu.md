@@ -6,7 +6,7 @@ tags: Tools
 keywords: 科学上网,工具,VPN,L2TP
 ---
 
-回国之后为了正常上网，还是得部署一个 VPN 自用。之前写过[在ubuntu下搭建pptp vpn服务器](/2013/12/11/deploy-pptp-vpn-in-ubuntu.html)，本来准备直接拿来用的，结果发现 MacOS Sierra 竟然不支持 PPTP 了 T_T 只好重新选择一个方式，这篇主要讲如何部署 L2TP VPN 在 Ubuntu 下，以及如何通过 Mac 连接上去。
+之前写过[在ubuntu下搭建pptp vpn服务器](/2013/12/11/deploy-pptp-vpn-in-ubuntu.html)，本来准备直接拿来用的，结果发现 MacOS Sierra 竟然不支持 PPTP 了 T_T 只好重新选择一个方式，这篇主要讲如何部署 L2TP VPN 在 Ubuntu 下，以及如何通过 Mac 连接上去。
 
 ## 服务端
 
