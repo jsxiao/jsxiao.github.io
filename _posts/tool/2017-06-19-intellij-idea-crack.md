@@ -16,4 +16,4 @@ keywords: Java
 
 windows下还需要编辑 idea64.vmoptions
 ##### 全部完成后启动Idea，选择第二项随意输入几个字符即可。
-##### 下载密码: vega
+##### 下载密码: veag
