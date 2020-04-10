@@ -8,12 +8,14 @@ description:
 ---
 
 > 表单上传必要参数
+
 - `action`: 上传地址
 - `upload_token`: 上传凭证
 - `file`: 文件本身
 
 最终呈现的form表单
-```html
+
+```
 <form method="post" action="<action>" enctype="multipart/form-data">
   <input name="token" type="hidden" value="<upload_token>">
   <input name="file" type="<file>" />
@@ -22,8 +24,10 @@ description:
 ```
 
 ---
+
 > 使用`java sdk`生成上传凭证
-```java
+
+```
         String url = "/material/fileObjects/e12d0djdkwkq32.jpg"
         String fileKey = Paths.get("ARCard/res/", url).toString();
 
@@ -48,7 +52,8 @@ description:
 ```
 
 > 前端`js`代码; 仅展示关键部分
-```html
+
+```
 <template>
   <div>
     <el-upload
@@ -91,7 +96,7 @@ export default {
 </script>
 ```
 
-至此form表单上传完成; `callbackBody`和`callbakUrl`用于服务端存储上传文件的信息
+至此form表单上传完成。 七牛云回调(`callbackBody`和`callbakUrl`)用于服务端存储上传文件的信息。
 
 #### 参考
 
