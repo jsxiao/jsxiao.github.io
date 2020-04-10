@@ -9,8 +9,7 @@ description:
 
 > 网上太多例子了，但说实话让菜鸟的我看的一脸懵逼。话不多说，请看代码(仅展示关键部分)
 
-
-```html
+```
 <template>
   <div>
     <el-upload
@@ -47,6 +46,7 @@ export default {
 涉及的内容不够深入，但对于我这种菜鸟来说足够用了；
 
 > 总结
+
  - await必须在async定义的方法内
  - await等待异步方法结束后下面的代码才会继续执行
  - 对于Primise不需要调用`.then()`，直接`return new Promise((resolve) => {resolve(123)})`即可
