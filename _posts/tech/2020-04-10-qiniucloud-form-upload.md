@@ -7,6 +7,14 @@ keywords: 七牛云, 表单上传
 description: 
 ---
 
+> 环境
+
+- jdk1.8
+- 七牛云sdk 7.2.18
+- vue 2.6.10
+- element-ui 2.12.0
+
+
 > 表单上传必要参数
 
 - `action`: 上传地址
